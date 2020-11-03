@@ -100,3 +100,46 @@ body{
   height: 720px;
   z-index: 0;
 }
+
+/*Footer*/
+
+.footer-part {
+  background-color: cadetblue;
+  padding-top: 30px;
+}
+
+.footer-part h4 {
+  color: white;
+}
+
+.footer-containter {
+  background-color: cadetblue;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.footer-title {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.footer-topics ul {
+  list-style-type: disc;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.footer-topics li {
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.footer-topics li::marker {
+margin: 0 18px;
+}
