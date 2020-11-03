@@ -1,16 +1,16 @@
 * {
   margin: 0;
 }
-body{
-  max-width:1440px;
-  margin:0 auto;
+body {
+  max-width: 1440px;
+  margin: 0 auto;
 }
 .page-header {
   background-color: rgb(35, 36, 36);
-  margin:0;
+  margin: 0;
 }
-.header-content{
-  display:flex;
+.header-content {
+  display: flex;
   justify-content: space-evenly;
   align-items: center;
   list-style-type: none;
@@ -18,14 +18,14 @@ body{
 }
 .logo img {
   height: 80px;
-  transform: translate(0,15%);
-  margin-right:10px;
+  transform: translate(0, 15%);
+  margin-right: 10px;
 }
-.logo{
-  display:flex;
-  align-items:center;
+.logo {
+  display: flex;
+  align-items: center;
 }
-.logo-div{
+.logo-div {
   display: flex;
   flex-direction: column;
 }
@@ -33,35 +33,35 @@ body{
   font-weight: 700;
   font-size: 24px;
 }
-.logo span{
+.logo span {
   font-size: 18px;
   font-weight: 100;
 }
-.kitty{
+.kitty {
   background-color: black;
   padding: 15px 20px;
   border-radius: 10px;
 }
 .header-content > li {
-  color:white;
+  color: white;
   font-weight: 700;
   font-size: 22px;
 }
-.list-input{
+.list-input {
   display: flex;
   position: relative;
 }
 .list-input input {
   padding: 24px 120px 15px 45px;
-  border:0;
+  border: 0;
   border-radius: 10px;
 }
-.list-input input::placeholder{
-  font-size:22px;
+.list-input input::placeholder {
+  font-size: 22px;
 }
 
-.list-input i{
-  color: orange;
+.list-input i {
+  color: black;
   position: absolute;
   top: 25%;
   left: 5%;
@@ -69,34 +69,213 @@ body{
 
 /*Main Section*/
 
-.article-container {
+.article-container-1 {
   display: grid;
   grid-template-columns: 1fr 1fr;
-
+  grid-template-rows: 360px 360px;
+  grid-template-areas:
+    "a1 a2"
+    "a3 a4";
+  position: relative;
 }
 
 .title {
-  left: 0;
-  margin-left: 50%;
-  transform: translateX(-50%);
-}
-
-.title h1{
-  font-size: 28px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  left: 40%;
+  top: 5%;
 }
 
 .title span {
   background-color: #fff;
-  padding: .3em .4em;
+  padding: 0.1em 0.4em;
   line-height: 1.5em;
+  text-transform: capitalize;
+}
+.important-articles {
+  border: 1px solid mistyrose;
+  color: white;
+}
+.A1 {
+  grid-area: a1;
+  background-color: #5e5d5d;
+}
+.A2 {
+  grid-area: a2;
+  background-color: #737475;
+}
+.A3 {
+  grid-area: a3;
+  background-color: #3f4040;
+}
+.A4 {
+  grid-area: a4;
+  background-color: #5e5d5d;
 }
 
-.important-articles {
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 720px;
-  z-index: 0;
+.article-container-2 {
+  display: grid;
+  margin: 10px 0;
+  grid-template-columns: repeat(3, 390px);
+  justify-content: center;
+  grid-gap: 20px;
+  grid-template-rows: 390px 720px;
+  grid-template-areas:
+    "a5 a6 a7"
+    ". a8 a8";
+}
+.a2-1 {
+  grid-area: a5;
+  background-color: #ccc;
+  border-radius: 10px;
+}
+.a2-2 {
+  grid-area: a6;
+  background-color: #ccc;
+  border-radius: 10px;
+}
+.a2-3 {
+  grid-area: a7;
+  background-color: #ccc;
+  border-radius: 10px;
+}
+.a2-4 {
+  grid-area: a8;
+  border-radius: 10px;
+  background-color: #5e5d5d;
+}
+
+.article-container-3 {
+  display: grid;
+  margin: 10px 0;
+  grid-template-columns: repeat(3, 390px);
+  justify-content: center;
+  grid-gap: 20px;
+  grid-template-rows: 390px 720px;
+  grid-template-areas:
+    "a9 a10 a11"
+    "a12 a13 a13";
+}
+.a3-1 {
+  grid-area: a9;
+  background-color: #ccc;
+  border-radius: 10px;
+}
+.a3-2 {
+  grid-area: a10;
+  background-color: #ccc;
+  border-radius: 10px;
+}
+.a3-3 {
+  grid-area: a11;
+  background-color: #ccc;
+  border-radius: 10px;
+}
+.a3-4 {
+  grid-area: a12;
+  border-radius: 10px;
+  background-color: #ccc;
+}
+.a3-5 {
+  grid-area: a13;
+  border-radius: 10px;
+  background-color: #5e5d5d;
+}
+
+.article-block-1 {
+  background-color: navy;
+  color: white;
+  padding: 100px;
+  height: 600px;
+  text-align: center;
+}
+
+.article-container-4 {
+  display: grid;
+  margin: 10px;
+  grid-template-columns: minmax(200px, 1fr) 0px minmax(200px, 1fr);
+  justify-content: center;
+  grid-gap: 20px;
+  grid-template-rows: repeat(4, 185px);
+  grid-template-areas:
+    "a14 a14 a14"
+    "a15 . a16"
+    "a17 . a18"
+    "a19 . a20";
+}
+.a4-1 {
+  grid-area: a14;
+  background-color: #ccc;
+  border-radius: 10px;
+}
+.a4-2 {
+  grid-area: a15;
+  background-color: #ccc;
+  border-radius: 10px;
+}
+.a4-3 {
+  grid-area: a16;
+  background-color: #ccc;
+  border-radius: 10px;
+}
+.a4-4 {
+  grid-area: a17;
+  border-radius: 10px;
+  background-color: #ccc;
+}
+.a4-5 {
+  grid-area: a18;
+  border-radius: 10px;
+  background-color: #5e5d5d;
+}
+.a4-6 {
+  grid-area: a19;
+  border-radius: 10px;
+  background-color: #5e5d5d;
+}
+.a4-7 {
+  grid-area: a20;
+  border-radius: 10px;
+  background-color: #5e5d5d;
+}
+.article-block-2 {
+  background-color: #5e5d5d;
+  color: white;
+  padding: 100px;
+  height: 100px;
+  text-align: right;
+}
+
+.article-container-5 {
+  display: grid;
+  margin: 10px;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  grid-gap: 20px;
+  grid-template-rows: 150px 320px;
+  grid-template-areas:
+    "a21 a22"
+    "a23 a24";
+}
+.a5-1 {
+  grid-area: a21;
+  background-color: #ccc;
+  border-radius: 10px;
+}
+.a5-2 {
+  grid-area: a22;
+  background-color: #ccc;
+  border-radius: 10px;
+}
+.a5-3 {
+  grid-area: a23;
+  background-color: #ccc;
+  border-radius: 10px;
+}
+.a5-4 {
+  grid-area: a24;
+  border-radius: 10px;
+  background-color: #5e5d5d;
 }
