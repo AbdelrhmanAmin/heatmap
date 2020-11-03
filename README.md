@@ -9,7 +9,7 @@ Fifth project on Microverse course
 
 ![screenshot](./src/images/app_screenshot.png)
 
-We described how would look ![this](https://www.smashingmagazine.com/) page as if using a Heat Map.
+We described how would look [this](https://www.smashingmagazine.com/) page as if using a Heat Map.
 
 
 
