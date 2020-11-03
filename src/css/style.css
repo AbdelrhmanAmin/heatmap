@@ -1,14 +1,17 @@
 * {
   margin: 0;
 }
+
 body {
   max-width: 1440px;
   margin: 0 auto;
 }
+
 .page-header {
   background-color: rgb(35, 36, 36);
   margin: 0;
 }
+
 .header-content {
   display: flex;
   justify-content: space-evenly;
@@ -16,46 +19,56 @@ body {
   list-style-type: none;
   padding: 12px 10px;
 }
+
 .logo img {
   height: 80px;
   transform: translate(0, 15%);
   margin-right: 10px;
 }
+
 .logo {
   display: flex;
   align-items: center;
 }
+
 .logo-div {
   display: flex;
   flex-direction: column;
 }
+
 .logo strong {
   font-weight: 700;
   font-size: 24px;
 }
+
 .logo span {
   font-size: 18px;
   font-weight: 100;
 }
+
 .kitty {
   background-color: black;
   padding: 15px 20px;
   border-radius: 10px;
 }
+
 .header-content > li {
   color: white;
   font-weight: 700;
   font-size: 22px;
 }
+
 .list-input {
   display: flex;
   position: relative;
 }
+
 .list-input input {
   padding: 24px 120px 15px 45px;
   border: 0;
   border-radius: 10px;
 }
+
 .list-input input::placeholder {
   font-size: 22px;
 }
@@ -73,9 +86,8 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 360px 360px;
-  grid-template-areas:
-    "a1 a2"
-    "a3 a4";
+  grid-template-areas: "a1 a2"
+                       "a3 a4";
   position: relative;
 }
 
@@ -142,9 +154,8 @@ body {
   justify-content: center;
   grid-gap: 20px;
   grid-template-rows: 390px 720px;
-  grid-template-areas:
-    "a5 a6 a7"
-    ". a8 a8";
+  grid-template-areas:"a5 a6 a7"
+                      ". a8 a8";
 }
 
 .a2-1 {
