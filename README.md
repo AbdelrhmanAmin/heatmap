@@ -28,7 +28,7 @@ The darker the color is, the most likely is to get visited by a user.
 
 Here you will find a Live Demo page, any comment is well recieved.
 
-[Live Demo Link](https://raw.githack.com/MrkarlosM/heatmap/feature-branch/index.html)
+[Live Demo Link](https://raw.githack.com/MrkarlosM/heatmap/carlos-branch/index.html)
 
 ## Authors
 
