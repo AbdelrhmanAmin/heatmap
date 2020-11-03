@@ -1,4 +1,4 @@
-# heatmap
+# Heatmap
 Fifth project on Microverse course
 
 ![](https://img.shields.io/badge/Microverse-blueviolet)
