@@ -87,8 +87,8 @@ body {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 360px 360px;
   grid-template-areas:
-  "a1 a2"
-  "a3 a4";
+    "a1 a2"
+    "a3 a4";
   position: relative;
 }
 
@@ -160,8 +160,9 @@ body {
   justify-content: center;
   grid-gap: 20px;
   grid-template-rows: 390px 720px;
-  grid-template-areas:"a5 a6 a7"
-                      ". a8 a8";
+  grid-template-areas:
+    "a5 a6 a7"
+    ". a8 a8";
 }
 
 .a2-1 {
@@ -234,16 +235,14 @@ body {
 }
 
 .article-container-3 a h1 {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   font-size: 40px;
   font-weight: 700;
 }
 
 .article-container-3 a p {
   color: white;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   font-size: 40px;
   font-weight: 100;
 }
@@ -427,7 +426,7 @@ body {
   font-size: 18px;
 }
 
-.topic-item:before {
+.topic-item::before {
   color: white;
   content: "▪";
   padding: 0 5px;
