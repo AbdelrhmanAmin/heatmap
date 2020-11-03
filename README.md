@@ -36,8 +36,8 @@ Please feel free to contact us in any time:
 
 👤 **Carlos Mario **
 
-- GitHub: [@githubhandle](https://github.com/MrkarlosM)
-- Twitter: [@twitterhandle](@MrkarlosM)
+- GitHub: [@Carlos](https://github.com/MrkarlosM)
+- Twitter: [@Carlos](@MrkarlosM)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/carlos-mario-martinez-b1768355/)
 
 😎 **Abdo Amin**
