@@ -11,6 +11,8 @@ Fifth project on Microverse course
 
 We described how would look [this](https://www.smashingmagazine.com/) page as if using a Heat Map.
 
+The darker the color is, the most likely is to get visited by a user.
+
 
 
 ## Built With
